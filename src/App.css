@@ -1,12 +1,36 @@
 .App {
   text-align: center;
+
+}
+body{
+  background-color: rgb(184, 230, 230);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.input{
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 25rem;
+  height: 2rem;
+  margin-top: 10rem;
 
+}
+.button{
+  border: 2px solid green;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 5px;
+  background-color: #268ba8;
+  margin: 0.3rem;
+}
+.divv{
+  height: 100vh;
+  background-color:green;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
